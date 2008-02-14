@@ -6,7 +6,7 @@ Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
 License:	BSD
 Group:		Monitoring
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-Summary:	network tracing tool
+Summary:	Network tracing tool
 BuildRequires:	libpcap-devel libdnet-devel
 %description
 etrace is a configurable static port network tracing tool, similar to
