@@ -5,6 +5,7 @@ URL:		http://www.bindshell.net/tools/etrace
 Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
 License:	BSD
 Group:		Monitoring
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	network tracing tool
 BuildRequires:	libpcap-devel libdnet-devel
 %description
