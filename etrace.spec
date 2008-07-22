@@ -1,6 +1,6 @@
 Name:		etrace
 Version:	1.1
-Release:	%mkrel 1
+Release:	%mkrel 3
 URL:		http://www.bindshell.net/tools/etrace
 Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
 License:	BSD
