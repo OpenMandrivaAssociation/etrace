@@ -1,11 +1,11 @@
 Name:		etrace
 Version:	1.1
-Release:	%mkrel 3
+Release:	%mkrel 4
 URL:		http://www.bindshell.net/tools/etrace
 Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
 License:	BSD
 Group:		Monitoring
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	Network tracing tool
 BuildRequires:	libpcap-devel libdnet-devel
 %description
