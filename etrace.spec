@@ -1,8 +1,9 @@
 Name:		etrace
 Version:	1.1
-Release:	%mkrel 5
+Release:	%mkrel 6
 URL:		http://www.bindshell.net/tools/etrace
 Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
+Patch0:     etrace-fix_format_string.diff
 License:	BSD
 Group:		Monitoring
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -14,6 +15,7 @@ traceroute, but supporting ICMP, TCP, UDP and other IP protocols.
 
 %prep
 %setup -q -n %{name}
+%patch0 -p0
 
 %build
 %configure
