@@ -1,6 +1,6 @@
 Name:		etrace
 Version:	1.1
-Release:	%mkrel 7
+Release:	%mkrel 8
 URL:		http://www.bindshell.net/tools/etrace
 Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
 Patch0:		etrace-1.1-fix-str-fmt.patch
