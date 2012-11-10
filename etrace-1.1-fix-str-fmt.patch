@@ -1,0 +1,13 @@
+Index: trace.c
+===================================================================
+--- trace.c
++++ trace.c	2009-11-10 02:37:45.000000000 +0100
+@@ -39,7 +39,7 @@
+ 			err(EX_OSERR, "inet_aton() failed");
+ 		logmsg(llDEBUG, "Resolving hostname\n");
+ 		if ((host = gethostbyname(target)) == NULL)
+-			errx(EX_NOHOST, hstrerror(h_errno));
++			errx(EX_NOHOST, "%s", hstrerror(h_errno));
+ 		memcpy(&options.target, (struct in_addr *)host->h_addr,
+ 		    sizeof(options.target));
+ 	}
