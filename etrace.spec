@@ -1,7 +1,7 @@
 Name:		etrace
 Version:	1.1
 Release:	9
-URL:		http://www.bindshell.net/tools/etrace
+URL:		https://www.bindshell.net/tools/etrace
 Source:		http://www.bindshell.net/tools/etrace/%{name}.%{version}.tgz
 Patch0:		etrace-1.1-fix-str-fmt.patch
 License:	BSD
