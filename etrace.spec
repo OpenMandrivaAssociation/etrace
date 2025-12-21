@@ -8,6 +8,11 @@ License:	BSD
 Group:		Monitoring
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 Summary:	Network tracing tool
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libpcap-devel libdnet-devel
 %description
 etrace is a configurable static port network tracing tool, similar to
